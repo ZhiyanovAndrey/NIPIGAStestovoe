@@ -4,32 +4,32 @@ using System;
 
 
 // Задача 1 Сдвиг точки по вектору от конца к началу
-Vector a = new Vector(3, 1);
-double ofset = 1;
-Point resultPoint = Point.OfsetPointByVector(ofset, a);
+//Vector a = new Vector(3, 1);
+//double ofset = 1;
+//Point resultPoint = Point.OfsetPointByVector(ofset, a);
 
-Console.WriteLine($"Исходный вектор v1 ({a.X}, {a.Y})");
+//Console.WriteLine($"Исходный вектор v1 ({a.X}, {a.Y})");
 
-Console.WriteLine($"При заданном смещении точки по вектору на {ofset} \n" +
-    $"новые координаты точки ({Math.Round(resultPoint.X,2)}, {Math.Round(resultPoint.Y,2)})");
+//Console.WriteLine($"При заданном смещении точки по вектору на {ofset} \n" +
+//    $"новые координаты точки ({Math.Round(resultPoint.X,2)}, {Math.Round(resultPoint.Y,2)})");
 
 //// Задание 2 поворот точки 2 вокруг точки 1
 //Point p1 = new Point(2, 2);
 //Point p2 = new Point(6, 2);
-//double angle = 45;
+//double angle = 110;
 //Console.WriteLine($"Исходные точки (({p1.X}, {p1.Y}) и ({p2.X}, {p2.Y}))");
 //Point resultPoint = Point.RotationOfPointOnAngle(p1, p2, angle);
 //Console.WriteLine($"Новая кордината точки  ({p2.X}, {p2.Y}))");
-//Console.WriteLine($"после поворота на {angle} градусов  ({Math.Round(resultPoint.X,1)}, {Math.Round(resultPoint.Y,1)}))");
+//Console.WriteLine($"после поворота на {angle} градусов  ({Math.Round(resultPoint.X, 1)}, {Math.Round(resultPoint.Y, 1)}))");
 
 
-//// Задание 3 проверка на перпендикулярность
+// Задание 3 проверка на перпендикулярность
+Vector v1 = new Vector(5, 5);
+Vector v2 = new Vector(-2, 2);
+Console.WriteLine($"Исходный вектор v1 ({v1.X}, {v1.Y})");
+Console.WriteLine($"Исходный вектор v2 ({v2.X}, {v2.Y})");
 
-//Vector v2 = new Vector(-2, 2);
-//Console.WriteLine($"Исходный вектор v1 ({v1.X}, {v1.Y})");
-//Console.WriteLine($"Исходный вектор v2 ({v2.X}, {v2.Y})");
-
-//Vector.PerpendicularityOfTwoVectors(v1,v2);
+Vector.PerpendicularityOfTwoVectors(v1, v2);
 
 
 Console.ReadKey();
