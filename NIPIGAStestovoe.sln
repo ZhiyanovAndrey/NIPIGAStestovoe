@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToInt", "StringToInt\StringToInt.csproj", "{19BE42AF-056C-4B01-BD51-4B43306D2D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "Vector\Vector.csproj", "{0D7F367B-8C88-45DA-A0BE-E1F6D332DC20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19BE42AF-056C-4B01-BD51-4B43306D2D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BE42AF-056C-4B01-BD51-4B43306D2D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BE42AF-056C-4B01-BD51-4B43306D2D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BE42AF-056C-4B01-BD51-4B43306D2D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7F367B-8C88-45DA-A0BE-E1F6D332DC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7F367B-8C88-45DA-A0BE-E1F6D332DC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7F367B-8C88-45DA-A0BE-E1F6D332DC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7F367B-8C88-45DA-A0BE-E1F6D332DC20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30A477D1-1A15-4E21-8C48-E7D0586FE73E}
+	EndGlobalSection
+EndGlobal
