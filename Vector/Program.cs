@@ -24,7 +24,7 @@ using System;
 
 
 // Задание 3 проверка на перпендикулярность
-Vector v1 = new Vector(5, 5);
+Vector v1 = new Vector(6, 6);
 Vector v2 = new Vector(-2, 2);
 Console.WriteLine($"Исходный вектор v1 ({v1.X}, {v1.Y})");
 Console.WriteLine($"Исходный вектор v2 ({v2.X}, {v2.Y})");
